@@ -64,9 +64,9 @@ the specific meal included on your database. -->
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">Dishes</a>
-                    <a class="nav-link" href="#">Events</a>
-                    <a class="nav-link" href="#">Reservation</a>
-                    <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                    <a class="nav-link" href="create.php">Create dish</a>
+                    <a class="nav-link disabled" aria-disabled="true">Delete dish</a>
+                    <a class="nav-link disabled" aria-disabled="true">Update dish</a>
                 </div>
             </div>
         </div>

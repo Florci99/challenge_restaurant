@@ -5,6 +5,16 @@
 
    $result = mysqli_query($connect, $sql);
 
+   //Controlling that the query returns a row
+   // BETTER TO DO THE HTML HERE AND NO DOWN
+   // assoc if for only one record
+   $layout = "";
+   if(mysqli_num_rows($result) >0) {
+    $layout = 'Theres a record';
+   } else {
+    $layout = "No dish found!";
+   }
+
    $row = mysqli_fetch_assoc($result);
 
    mysqli_close($connect);
